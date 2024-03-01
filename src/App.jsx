@@ -15,6 +15,7 @@ function App() {
     <>
     <Router>
       <NavBar/>
+      <Home/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Certificate" element={<Certification/>}></Route>
