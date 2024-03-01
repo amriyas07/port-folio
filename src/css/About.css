@@ -1,0 +1,58 @@
+body{
+  background-color: #001233;
+  color: azure; 
+}
+.demo h1{
+    margin-top: 20px;
+    text-align: center;
+    color: azure;
+}
+.demo h2{
+  margin-top: 30px;
+  border-bottom: 3px solid aqua;
+}
+.Aboutxt h3{
+  text-align: center;
+  padding-bottom: 5px;
+  color: greenyellow;
+}
+.Aboutxt h4{
+  margin-top: 10px;
+  text-align: justify;
+  padding-bottom: 5px;
+
+}
+.th{
+    text-align: end;
+}
+.demo1, .table, .tr, .td{
+    padding: 10px;
+
+}
+.demo{
+    font-size: 20px;
+}
+.cms{
+  color: aqua;
+}
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .Aboutxt h3{
+      text-align: center;
+    }
+    .Aboutxt h4{
+      text-align: center;
+    }
+  }
+
+ 

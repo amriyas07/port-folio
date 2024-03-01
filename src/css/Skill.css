@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #001233;
+  color: azure; 
+}
+.conts {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* background-color: #ccc; */
+  padding: 30px 15px;
+  color: azure;
+}
+.conts h1,
+h2 {
+  text-align: center;
+  margin-top: 5px;
+}
+.Tskill {
+  padding: 20px;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.Tskill-text {
+  display: flex;
+  /* flex-grow: 1; */
+  padding: 10px;
+  font-size: 20px;
+  /* background-color: red; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-end;
+}
+.Nskill {
+  padding: 10px;
+  /* background-color: black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Nskill-text {
+  display: flex;
+  /* flex-grow: 1; */
+  padding: 5px;
+  font-size: 20px;
+  /* background-color: red; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.skill-progress {
+  display: flex;
+  /* background-color: rgb(83, 7, 7); */
+  padding: 5px;
+  flex-basis: 400px;
+  /* padding: 40px 15px; */
+  flex-direction: column;
+  padding-top: 17px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.pb1{
+  animation: progressAnimation1 3s ease-in-out forwards;
+}
+.pb2{
+  animation: progressAnimation2 3s ease-in-out forwards;
+}
+.pb3{
+  animation: progressAnimation3 3s ease-in-out forwards;
+}
+.pb4{
+  animation: progressAnimation4 3s ease-in-out forwards;
+}
+.pb5{
+  animation: progressAnimation5 3s ease-in-out forwards;
+}
+.pb6{
+  animation: progressAnimation6 3s ease-in-out forwards;
+}
+.pb7{
+  animation: progressAnimation7 3s ease-in-out forwards;
+}
+.pb8{
+  animation: progressAnimation8 3s ease-in-out forwards;
+}
+.pb9{
+  animation: progressAnimation9 3s ease-in-out forwards;
+}
+.cg{
+  background-color: aliceblue;
+  border-radius: 20%;
+}
+.cg1{
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.Fwork{
+    padding: 10px;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Fwork img{
+  margin-top: 2px;
+}
+.Fwork-text{
+    display: flex;
+    /* flex-grow: 1; */
+    padding: 5px;
+    padding-top: 13px;
+    font-size: 20px;
+    /* background-color: red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.pbs{
+    /* width: 90%; */
+    /* animation: progressAnimation 3s ease-in-out forwards; */
+    background: linear-gradient(to right, #a659d8, #1E90FF, #c085d9);
+    box-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+}
+@keyframes progressAnimation1 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 90%; 
+    }
+  }
+  @keyframes progressAnimation2 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 85%; 
+    }
+  }
+  @keyframes progressAnimation3 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 65%; 
+    }
+  }
+  @keyframes progressAnimation4 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 70%; 
+    }
+  }
+  @keyframes progressAnimation5 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 50%; 
+    }
+  }
+  @keyframes progressAnimation6 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 70%; 
+    }
+  }
+  @keyframes progressAnimation7 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 65%; 
+    }
+  }
+  @keyframes progressAnimation8 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 57%; 
+    }
+  }
+  @keyframes progressAnimation9 {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 50%; 
+    }
+  }
+
+.gaps {
+  margin-bottom: 23px;
+  background-color: white;
+}
+.skill-icon {
+  display: flex;
+  padding: 9px;
+  padding-top: 11px;
+  flex-basis: 30px;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: rgb(15, 27, 23); */
+}
+.Tools {
+  padding: 20px;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.Tool-text{
+    display: flex;
+    font-size: 20px;
+    /* flex-grow: 1; */
+    padding: 10px;
+    /* background-color: red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.size {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 16px;
+}
+
+.size:hover {
+  transform: scale(1.2);
+}
+
+@keyframes neonGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF;
+  }
+  50% {
+    box-shadow: 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .Tskill .skill-icon{
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {}

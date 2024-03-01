@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    background-color: #001233;
+    color: azure; 
+ }
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: azure;
+    /* min-height: 100vh; */
+    /* background-color: #ccc; */
+
+    animation: moveGradient 5s linear infinite;
+    background: linear-gradient(5deg, #8949CD, #3D3D8E, #0F172A);
+    backdrop-filter: blur(5px); 
+    /* backdrop-filter: blur(10px); */
+    border-radius: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+    padding-top: 30px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    flex-direction: column;
+}
+.pro{
+    border-radius: 5px;
+    font-size: 16px;
+    /* font-weight: bold; */
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.online{
+    background-color: greenyellow;
+    color: black;
+}
+.offline{
+    background-color: red;
+    color: black;
+}
+.card-container h3{
+    margin: 0px;
+    text-transform: uppercase;
+}
+.card-container p{
+    /* line-height: 10px; */
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.Mymg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: dodgerblue; */
+    border-top: 5px solid aqua;
+    border-bottom: 5px solid aquamarine;
+    border-left: 2px solid aquamarine;
+    border-right: 2px solid aqua;
+    padding: 5px;
+}
+.Mymg:hover{
+    /* filter: drop-shadow(10px 7px 10px rgb(101, 86, 190)); */
+    box-shadow: 10px 7px 20px rgb(101, 86, 190);
+    border-left: 5px solid aquamarine;
+    border-right: 5px solid aqua;
+    /* background-color: rgb(119, 98, 237); */
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card-container:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 15px 9px 20px rgb(103, 52, 103);
+}
+
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
