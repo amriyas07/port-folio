@@ -24,7 +24,7 @@ body{
   font-size: 30px;
 }
 .box {
-  left:5%;
+  /* left:5%; */
   border: 3px;
   position: relative;
   overflow: hidden;
@@ -81,7 +81,7 @@ body{
     background-position: 0% 50%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+/* @media screen and (min-width: 320px) and (max-width: 480px) {
   .box {
     left: 0;
   }
@@ -90,4 +90,4 @@ body{
   .box {
     left: 0;
   }
-}
+} */

@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
+import {HashRouter as Router,Route,Routes, HashRouter} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import NavBar from "./components/NavBar";
@@ -15,9 +15,9 @@ function App() {
     <>
     <Router>
       <NavBar/>
-      <Home/>
+      {/* <Home/> */}
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" exact element={<Home/>}></Route>
         <Route path="/Certificate" element={<Certification/>}></Route>
         <Route path="/About" element={<About/>}></Route>
         <Route path="/Skills" element={<Skills/>}></Route>
@@ -25,7 +25,6 @@ function App() {
         <Route path="/Contact" element={<Contact/>}></Route>
       </Routes>
     </Router>
-
     </>
 
   );

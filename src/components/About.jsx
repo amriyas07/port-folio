@@ -6,7 +6,7 @@ function About() {
       <h1>About <span className="cms">Me</span></h1>
       <div className="Aboutxt">
       <h4>A Dedicated Computer Science Student Transforming Innovative Ideas into Impactful Digital Solutions. <br />
-      <br />Eagerly seeking software development opportunities, I aim to seamlessly transition from academia to the professional sphere, contributing technical skills and creativity to dynamic teams for innovative projects. </h4>
+      <br />Eagerly seeking Software development opportunities, I aim to seamlessly transition from academia to the professional sphere, contributing technical skills and creativity to dynamic teams for innovative projects. </h4>
      <h3>Let's connect! If you're seeking a dedicated individual with a passion for coding, I'm excited to explore how I can bring value to your team.</h3>
       </div>
       <h2>Personal Details</h2>
@@ -30,7 +30,7 @@ function About() {
             <strong>Course:</strong> B.E(Computer Science and Engineering)<br />
             <strong>College:</strong> IFET College of Engineering, Villupuram<br />
             <strong>Year of passing:</strong> 2024<br />
-            <strong>CGPA:</strong> 8.29
+            <strong>CGPA:</strong> 8.27
           </td>
         </tr>
         <tr>

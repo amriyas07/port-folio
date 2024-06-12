@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 import "../css/Contacts.css";
-import MyIg from "../assets/A2487.jpg";
+import MyIg from "../assets/EditImage.png";
 function User(props){
     const openEmail = () => {
       window.location.href = 'mailto:amohamedriyasdeen@gmail.com';
@@ -30,7 +30,7 @@ function Contact() {
   const date = new Date();
   const status = date.getHours()>=5 && date.getHours()<=22 ? true : false;
   return (
-    <User names="Mohamed Riyasdeen A" city="villupuram" designation="software engineer" online={status} mob={916385462105}/>
+    <User names="Mohamed Riyasdeen A" city="villupuram" designation="Software Engineer" online={status} mob={916385462105}/>
   )
 }
 export default Contact

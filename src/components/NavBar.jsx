@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <nav className="nav container-fluid">
     <div className="nav-left">
-      <a href="#">Never quit</a>
+    <Link to="/">Never quit</Link>
     </div>
     <div className="nav-right">
       <div className="menu" onClick={()=> {

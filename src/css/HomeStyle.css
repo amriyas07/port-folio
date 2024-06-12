@@ -13,6 +13,8 @@ body{
     animation: moveGradient 5s linear infinite;
     background: linear-gradient(7deg, #8949CD, #3D3D8E, #0F172A);
     backdrop-filter: blur(5px); 
+    display: flex;
+    flex-wrap: wrap;
     height: 85vh;
     /* border-radius: 20px; */
     /* margin-top: 20px; */
@@ -82,6 +84,7 @@ body{
     animation: loading 1.2s 0s 1 both ease-in-out ;
     font-weight: bold;
     font-size: 43px;
+    padding: 5px;
     
 }
 .text-left a{
@@ -196,7 +199,7 @@ body{
 
   @media screen and (min-width: 320px) and (max-width: 480px) {
     .header{
-        height: 119vh;
+        height: 100%;
     }
     .header-container, .text-left{
         font-size: 16px;
@@ -229,14 +232,14 @@ body{
   }
   @media screen and (min-width: 481px) and (max-width: 768px) {
     .header{
-        height: 152vh;
+        height: 119vh;
     }
     .header-container, .text-left{
         font-size: 18px;
     }   
     .bts {
         font-size: 18px;
-        margin-left: 40%;
+        margin-left: 33%;
         padding-bottom: 10px;
     }
     .text-left h1{
@@ -262,9 +265,9 @@ body{
     }
   }
   @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .header{
-        height: 151vh;
-    }
+    /* .header{
+        height: 155vh;
+    } */
     .header-container, .text-left{
         font-size: 19px;
     }   
