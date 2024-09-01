@@ -8,18 +8,17 @@ import jsico from "../assets/Icons/jscript.png";
 import rjsico from "../assets/Icons/reactjs.png";
 import htico from "../assets/Icons/htl.png";
 import vsico from "../assets/Icons/visual.png";
-import djico from "../assets/Icons/dj.png";
-import stico from "../assets/Icons/stream.png";
 import fgico from "../assets/Icons/figma.png";
 import cvico from "../assets/Icons/canva.png";
 import sqlico from "../assets/Icons/db.png";
 import xdico from "../assets/Icons/xd.png";
-import wpico from "../assets/Icons/wordpress.png";
 import xmpico from "../assets/Icons/XAMPP.png";
 import msqlico from "../assets/Icons/mysql.png";
 import bico from "../assets/Icons/boot5.png";
-import Edico from "../assets/Icons/EDE.png";
-import pbico from "../assets/Icons/bi.png";
+import lara from "../assets/Icons/lara.png";
+import postman from "../assets/Icons/postman-icon.png"
+import phplogo from "../assets/Icons/php.png";
+
 function Skills() {
   return (
     <div className="conts container-fluid">
@@ -31,11 +30,11 @@ function Skills() {
           <p>CSS </p>
           <p>JavaScript</p>
           <p>BootStrap</p>
+          <p>Php</p>
           <p>React JS</p>
           <p>SQL</p>
           <p>Java (Core)</p>
           <p>Python Programming</p>
-          <p>C Programming</p>
         </div>
         {/* <div className="Nskill-text">
           <p>Communication</p>
@@ -50,11 +49,11 @@ function Skills() {
         <img src={cssico} className="size" alt="icon" />
         <img src={jsico} className="size" alt="icon" />
         <img src={bico} className="size" alt="icon" />
+        <img src={phplogo} className="size" alt="icon" />
         <img src={rjsico} className="size" alt="icon" />
         <img src={sqlico} className="size cg" alt="icon" />
         <img src={jvico} className="size" alt="icon" />
         <img src={pyico} className="size" alt="icon" />
-        <img src={cico} className="size" alt="icon" />
         </div>
 
         <div className="skill-progress">
@@ -112,6 +111,19 @@ function Skills() {
 
           <div className="gaps progress" style={{ height:"23px" }}>
             <div
+              className="progress progress-bar progress-bar-success progress-bar-striped pbs pb4"
+              role="progressbar"
+              aria-valuenow="40"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ height:"23px" }}
+            >
+            Php
+            </div>
+          </div>
+
+          <div className="gaps progress" style={{ height:"23px" }}>
+            <div
               className="progress progress-bar progress-bar-success progress-bar-striped pbs pb5"
               role="progressbar"
               aria-valuenow="40"
@@ -162,19 +174,6 @@ function Skills() {
             </div>
           </div>
 
-          <div className="gaps progress" style={{ height:"23px" }}>
-            <div
-              className="progress progress-bar progress-bar-success progress-bar-striped pbs pb9"
-              role="progressbar"
-              aria-valuenow="40"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style={{ height:"23px" }}
-            >
-            C Programming 
-            </div>
-          </div>
-
         </div>
       </div>
 
@@ -185,24 +184,20 @@ function Skills() {
         <div className="Tool-text">
           <p>Figma</p>
           <p>Adobe XD</p>
+          <p>Postman</p>
           <p>Canva</p>
           <p>VsCode</p>
-          <p>WordPress</p>
           <p>MySQL</p>
           <p>Xampp</p>
-          <p>Eclipse IDE</p>
-          <p>Power BI</p>
         </div>
         <div className="skill-icon">
         <img src={fgico} className="size" alt="icon" />
           <img src={xdico} className="size" alt="icon" />
+          <img src={postman} className="size" alt="icon" />
           <img src={cvico} className="size" alt="icon" />
           <img src={vsico} className="size" alt="icon" />
-          <img src={wpico} className="size cg1" alt="icon" />
           <img src={msqlico} className="size" alt="icon" />
           <img src={xmpico} className="size" alt="icon" />
-          <img src={Edico} className="size" alt="icon" />
-          <img src={pbico} className="size" alt="icon" />
         </div>
       </div> 
 
@@ -211,12 +206,10 @@ function Skills() {
       <h2>FRAMEWORK</h2>
       <div className="Fwork">
         <div className="Fwork-text">
-          <p>Streamlit</p>
-          <p>Django</p>
+          <p>Laravel</p>
         </div>
         <div className="skill-icon">
-        <img src={stico} className="size" alt="icon" />
-          <img src={djico} className="size" alt="icon" />
+        <img src={lara} className="size" alt="icon" />
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Projects.css";
-import Earth from "../assets/Quake.jpeg";
+import MobileApp from "../assets/app.png";
 import Ml from "../assets/ML.png";
 import Qrc from "../assets/QRC.png";
 function Project() {
@@ -8,18 +8,17 @@ function Project() {
     <div className="container cdm">
       <div className="card stsize">
         <img
-          src={Earth}
+          src={MobileApp}
           className="card-img-top stimg-size"
           alt="Project Image"
         />
         <div className="card-body tex">
           <h3 className="card-title">
-            SEISMIC TREMOR ALERT AND DOWNPOUR CAUTION{" "}
+          ENHANCING COMMUNITY LIVING THROUGH SEAMLESS LOCAL SERVICES AND TRUSTED PROVIDERS{" "}
           </h3>
           <p className="card-text">
-            The goal of this project is to identify seismic tremors and
-            downpours so that we can issue real-time alert warnings when they
-            may result in earthquakes and rain.
+          The project aims to create a digital platform connecting local service providers with customers using OutSystems. It simplifies access to
+          essential services, particularly beneficial for newcomers, promoting community and convenience.
           </p>
           {/* <div className="aligns">
           <a href="#" className="btn btn-success">

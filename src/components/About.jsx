@@ -30,7 +30,7 @@ function About() {
             <strong>Course:</strong> B.E(Computer Science and Engineering)<br />
             <strong>College:</strong> IFET College of Engineering, Villupuram<br />
             <strong>Year of passing:</strong> 2024<br />
-            <strong>CGPA:</strong> 8.27
+            <strong>CGPA:</strong> 8.26
           </td>
         </tr>
         <tr>
